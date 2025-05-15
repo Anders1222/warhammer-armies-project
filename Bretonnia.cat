@@ -1138,32 +1138,30 @@
         <cost name="pts" typeId="points" value="80"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="481a-58e6-5491-6431" name="Templar Crusader" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="481a-58e6-5491-6431" name="Sergeant-At-Arms" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="d17a-6875-4a07-99d1" name="Templar Crusader" publicationId="9e23-79cb-pubN75312" page="124" hidden="false" typeId="d9ed-a507-0102-d498" typeName="Model">
+        <profile id="d17a-6875-4a07-99d1" name="Sergeant-At-Arms" publicationId="9e23-79cb-pubN75312" page="124" hidden="false" typeId="d9ed-a507-0102-d498" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="09ad-18df-607b-1215">4</characteristic>
             <characteristic name="WS" typeId="f049-8a65-9c04-1559">4</characteristic>
-            <characteristic name="BS" typeId="7b67-9dfa-eeac-d007">3</characteristic>
+            <characteristic name="BS" typeId="7b67-9dfa-eeac-d007">4</characteristic>
             <characteristic name="S" typeId="edd2-7979-54a4-6b35">4</characteristic>
             <characteristic name="T" typeId="df90-5cbd-8cf9-95b2">4</characteristic>
             <characteristic name="W" typeId="27ee-0675-122f-a1b1">2</characteristic>
             <characteristic name="I" typeId="7cca-e51f-edc2-7322">4</characteristic>
             <characteristic name="A" typeId="bfa2-d38d-7c93-d3f0">2</characteristic>
-            <characteristic name="LD" typeId="a199-f10b-a038-5730">8</characteristic>
+            <characteristic name="LD" typeId="a199-f10b-a038-5730">7</characteristic>
             <characteristic name="Type" typeId="13f9-a26b-05af-3459">Infantry (Character)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="cd17-f0f1-5e0d-9598" name="Fiery Zeal" publicationId="9e23-79cb-pubN75312" page="124" hidden="false">
-          <description>The Templar Crusader and any unit he is with gain Hatred for as long as he remains in the unit.</description>
+        <rule id="cd17-f0f1-5e0d-9598" name="Yeomen Guard" publicationId="9e23-79cb-pubN75312" page="124" hidden="false">
+          <description>You may upgrade one unit of Men-at-Arms with medium armour for +1 point/model for each Sergeant-At-Arms in your army.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="44fa-f238-8b89-75c3" name="Lance Formation" hidden="false" targetId="ad7f-7d06-8101-283e" type="rule"/>
-        <infoLink id="5582-592b-c820-051e" name="The Blessing of the Lady" hidden="false" targetId="2755-8cce-9b25-0cf5" type="rule"/>
-        <infoLink id="5b34-e8cb-83b2-9fb1" name="The Knight&apos;s Vow" hidden="false" targetId="d242-2846-8f1c-6860" type="rule"/>
+		<infoLink id="6636-b07f-60d0-e132" name="The Peasant&apos;s Duty" hidden="false" targetId="22b7-cc0d-1805-d244" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b1b0-f84a-c451-8936" name="Heroes" hidden="false" targetId="d38a-73da-883b-bab9" primary="true"/>
