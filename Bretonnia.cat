@@ -1167,16 +1167,27 @@
         <categoryLink id="b1b0-f84a-c451-8936" name="Heroes" hidden="false" targetId="d38a-73da-883b-bab9" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ea79-9d59-f41b-831f" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ea79-9d59-f41b-831f" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7ce5-47f9-da17-da79" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="231c-c4fb-ab84-70df" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="9c14-573f-7e7f-91a4" name="Heavy Armour" hidden="false" targetId="8e15-bc32-b40c-bad3" type="profile"/>
+            <infoLink id="9c14-573f-7e7f-91a4" name="Light Armour" hidden="false" targetId="8e15-bc32-b40c-bad3" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
+          </costs>
+        </selectionEntry>
+		<selectionEntry id="555c-4773-7f95-01ca" name="Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="59ff-9686-e69c-b498" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b787-4e61-3070-4179" name="Medium Armour" hidden="false" targetId="8bf1-244f-c642-d43f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="4"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="555c-4773-7f95-01ca" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -1188,6 +1199,39 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="2"/>
+          </costs>
+        </selectionEntry>
+		<selectionEntry id="555c-4773-7f95-01ca" name="Polearm (on foot only)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="59ff-9686-e69c-b498" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b787-4e61-3070-4179" name="Polearm (on foot only)" hidden="false" targetId="8bf1-244f-c642-d43f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="6"/>
+          </costs>
+        </selectionEntry>
+		<selectionEntry id="555c-4773-7f95-01ca" name="Great weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="59ff-9686-e69c-b498" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b787-4e61-3070-4179" name="Great weapon" hidden="false" targetId="8bf1-244f-c642-d43f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="9"/>
+          </costs>
+        </selectionEntry>
+		<selectionEntry id="555c-4773-7f95-01ca" name="Light lance" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="59ff-9686-e69c-b498" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b787-4e61-3070-4179" name="Light lance" hidden="false" targetId="8bf1-244f-c642-d43f" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="6"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ac13-2144-c71c-fe8a" name="Warhorse" hidden="false" collective="false" import="true" type="upgrade">
@@ -1220,22 +1264,6 @@
           <categoryLinks>
             <categoryLink id="fuVX-fGjH-CWx7-pAIK" name="(Mount)" hidden="false" targetId="(Mount)" primary="false"/>
           </categoryLinks>
-        </selectionEntry>
-        <selectionEntry id="64d7-7eea-e21f-45bf" name="Magic Items &amp; Virtues of the Chivalric Knight" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2079-7219-0eb0-ad5a" type="max"/>
-            <constraint field="points" scope="parent" value="50" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c2cf-1f42-6061-3a49" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="e21e-cb91-23f9-1a23" name="Enchanted Items" hidden="false" collective="false" import="true" targetId="8b2b-59ba-dd17-cb80" type="selectionEntryGroup"/>
-            <entryLink id="5bd8-fc80-754b-ce1a" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="671f-f2bd-a42e-d104" type="selectionEntryGroup"/>
-            <entryLink id="e044-3c3b-9af1-1edb" name="Talismans" hidden="false" collective="false" import="true" targetId="f90e-6119-6dae-4b9a" type="selectionEntryGroup"/>
-            <entryLink id="791f-76d4-72dd-02fb" name="Magic Armour" hidden="false" collective="false" import="true" targetId="31dc-7d00-f7c8-4dc4" type="selectionEntryGroup"/>
-            <entryLink id="d990-5de1-16f0-426f" name="Virtues of the Chivalric Knight" hidden="false" collective="false" import="true" targetId="abe1-2fab-1b81-0ad5" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
